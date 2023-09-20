@@ -5,33 +5,46 @@
     </head>
     <body>
         
-        <!-- HERO SECTION -->
-        <div id="hero">
-            <div class="chennai-img" id="chennai-image"></div>
-            
-            <h1>Visit Chennai</h1>
-            <h2>Enjoy culture and sports in this vibrant city.</h2>
-        </div>
-        
+      <div class="container">
+          <!-- HERO SECTION -->
+          <div id="hero">
+            <!-- misleading classnames or id names.  didn't close the below div properly-->
+            <!-- <div class="chennai-img" id="chennai-image"> -->
+                <div class="text-bg">
+                <h1>Visit Chennai</h1>
+                <!-- <h2>Enjoy culture and sports in this vibrant city.</h2> Use paragraph tag  -->
+                <p>Enjoy culture and sports in this vibrant city.</p>
+            </div> 
+          </div><!-- closing of hero div -->
+
         <!-- ACTIVITIES SECTION -->
-        <div id="activity">
-            <title>Top three activities to do at Chennai</title>
-            <div><img src="Mahabalipuram.jpg"alt="Temples at Mahabalipuram">
-            <p>Mahabalipuram is a place that is famous for its temples and monuments, especially the very famous Shore Temple.</p></div>
-            <div><img src="phoenix.jpeg">
-            <p>The largest shopping centre in Chennai is Phoenix Market City, ranked as the nation's fourth-largest mall.</p></div>
-            <div><img src="marina.jpg">
-            <p>The beach is the first longest beach in India and the second longest in the world.</p></div>
-        </div>
+        <section class="second-sec">
+            <h1 class="h1-sec">Top three activities to do at Chennai</h1>
+            <div id="activity">
+                <div class="activity1 places">
+                    <img src="Mahabalipuram.jpg"alt="Temples at Mahabalipuram">
+                    <p>Mahabalipuram is a place that is famous for its temples and monuments, especially the very famous Shore Temple.</p></div>
+                <div class="activity2 places">
+                    <img src="phoenix.jpeg">
+                    <p>The largest shopping centre in Chennai is Phoenix Market City, ranked as the nation's fourth-largest mall.</p></div>
+                <div class="activity3 places">
+                    <img src="marina.jpg">
+                    <p>The beach is the first longest beach in India and the second longest in the world.</p>
+                </div>
+            </div>
+        </section>
 
         <!-- GUIDE SECTION -->
         <div id="ilakia">
-          <div> <img src="ilakia.jpg" alt ="Tamizh ilakia Rajarathinam  is smiling " class="avatar"></div>
-           <div> <h3>Your guide</h3>
-            <p>"I have lived at Chennai for over 29 years,
-                 so I can show you all of its best parts and hidden secrets."</p><div>
-            <div><h4>Tamizh ilakia Rajarthinam</h4></div>
+            <img src="ilakia.jpg" alt ="Tamizh ilakia Rajarathinam  is smiling " class="avatar">
+            <div class="sidetext-card">
+                <h2>Your guide</h2>
+                <p>"I have lived at Chennai for over 29 years,
+                    so I can show you all of its best parts and hidden secrets."</p>
+                <h4>Tamizh ilakia Rajarthinam</h4>
+            </div>
        
         </div>
+      </div>
     </body>
 </html>
